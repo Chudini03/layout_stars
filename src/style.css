@@ -3,27 +3,3 @@ body {
   padding: 0;
 }
 
-.stars {
-  display: flex;
-}
-
-.stars_star {
-  width: 16px;
-  height: 16px;
-  background-image: url(./images/star.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 2px;
-}
-
-.stars_star:first-child {
-  margin-left: 0;
-}
-
-.stars_star:last-child {
-  margin-right: 0;
-}
-
-.star--active {
-  background-image: url(./images/star-active.svg);
-}
